@@ -5,7 +5,7 @@ metadata:
   name: demo-cluster
   region: us-east-2
   
- vpc:
+vpc:
   subnets:
     private:
       us-east-2a: { id: subnet-0dd621efd162f72b6 }
