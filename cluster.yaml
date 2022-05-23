@@ -5,13 +5,6 @@ metadata:
   name: demo-cluster
   region: us-east-1
 
-vpc:
-  subnets:
-    private:
-      us-east-1c: { id: subnet-0dd621efd162f72b6 }
-      us-east-1d: { id: subnet-0d3958414135cae6c }
-      us-east-1b: { id: subnet-0a89dd7a6f5aa9c76 }
-
 nodeGroups:
   - name: ng-1-workers
     labels: { role: workers }
