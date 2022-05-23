@@ -10,7 +10,7 @@ metadata:
     private:
       us-east-2a: { id: subnet-0dd621efd162f72b6 }
       us-east-2b: { id: subnet-0d3958414135cae6c }
-      us-east-2c: { id: subnet-0a89dd7a6f5aa9c76}
+      us-east-2c: { id: subnet-0a89dd7a6f5aa9c76 }
 
 nodeGroups:
   - name: ng-1-workers
